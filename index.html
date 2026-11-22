@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Görünür — Google yorumlarına yapay zekâyla cevap taslağı</title>
+<meta name="description" content="Esnaf için Google yorum cevabı, harita sırası ölçümü ve harita kaydı. Cevap taslağını yapay zekâ hazırlar, siz WhatsApp’tan tek dokunuşla onaylarsınız. İlk 14 gün ücretsiz.">
+<link rel="canonical" href="https://gorunur.com/">
+<link rel="alternate" hreflang="tr" href="https://gorunur.com/">
+<link rel="alternate" hreflang="en" href="https://gorunur.com/en">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Görünür">
+<meta property="og:title" content="Görünür — Google yorumlarına yapay zekâyla cevap taslağı">
+<meta property="og:description" content="Esnaf için Google yorum cevabı, harita sırası ölçümü ve harita kaydı. Cevap taslağını yapay zekâ hazırlar, siz WhatsApp’tan tek dokunuşla onaylarsınız. İlk 14 gün ücretsiz.">
+<meta property="og:url" content="https://gorunur.com/">
+<meta property="og:image" content="https://gorunur.com/og-image.png">
+<meta property="og:locale" content="tr_TR">
+<meta property="og:locale:alternate" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#16307d">
+<!-- Doğrulama kodları (Search Console, Bing, Facebook) buraya eklenecek. -->
+<!-- Analytics (G-XXXXXXX) ve Meta Pixel yalnızca çerez izniyle yüklenecek; bu sürümde hiç yüklenmez. -->
+<script>try{var t=localStorage.getItem('gr-tema');if(t==='dark'||t==='light')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&amp;display=swap">
+<link rel="preload" as="image" href="assets/img/yorum-1-1000.webp" imagesrcset="assets/img/yorum-1-600.webp 600w, assets/img/yorum-1-1000.webp 1000w" imagesizes="(max-width: 960px) calc(100vw - 32px), 540px">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"Organization","@id":"https://gorunur.com/#org","name":"Görünür","url":"https://gorunur.com/","email":"info@gorunur.com","telephone":"05xx xxx xx xx","founder":{"@type":"Person","name":"X Kişi"},"parentOrganization":{"@type":"Organization","name":"X Şirketi"}},
+{"@type":"WebSite","@id":"https://gorunur.com/#web","url":"https://gorunur.com/","name":"Görünür","inLanguage":["tr-TR","en-US"],"publisher":{"@id":"https://gorunur.com/#org"}},
+{"@type":"Service","name":"Google yorum cevabı ve harita kaydı","provider":{"@id":"https://gorunur.com/#org"},"areaServed":"TR","serviceType":"Google İşletme Profili yönetimi","offers":[{"@type":"Offer","name":"Cevap","price":"1188","priceCurrency":"TRY"},{"@type":"Offer","name":"Cevap + Takip","price":"2388","priceCurrency":"TRY"}]}
+]}
+</script>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs>
+<symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 11.5a8.5 8.5 0 0 1-12.3 7.6L3.5 20.5l1.3-4.8A8.5 8.5 0 1 1 21 11.5z"/><path d="M8.6 11.6l2.3 2.3 4.6-4.7"/></symbol>
+<symbol id="i-msg" viewBox="0 0 24 24"><path d="M20.5 12a8.5 8.5 0 0 1-12.4 7.5L3.5 20.5l1-4.4A8.5 8.5 0 1 1 20.5 12z"/><path d="M8.5 12h.01M12 12h.01M15.5 12h.01" stroke-width="2.6"/></symbol>
+<symbol id="i-chart" viewBox="0 0 24 24"><path d="M3.5 20.5h17"/><path d="M7 17v-5"/><path d="M12 17V7"/><path d="M17 17v-8"/></symbol>
+<symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21.5s-7-6.1-7-11.6a7 7 0 0 1 14 0c0 5.5-7 11.6-7 11.6z"/><path d="M12 7v5.4"/><path d="M9.3 9.7h5.4"/></symbol>
+<symbol id="i-lock" viewBox="0 0 24 24"><rect x="4.5" y="10.5" width="15" height="10.5" rx="2.5"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/><path d="M12 14.5v2.5"/></symbol>
+<symbol id="i-eye" viewBox="0 0 24 24"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></symbol>
+<symbol id="i-undo" viewBox="0 0 24 24"><path d="M9 14 4 9l5-5"/><path d="M4 9h10.5a5.5 5.5 0 0 1 0 11H11"/></symbol>
+<symbol id="i-qr" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="6.5" height="6.5" rx="1"/><rect x="14" y="3.5" width="6.5" height="6.5" rx="1"/><rect x="3.5" y="14" width="6.5" height="6.5" rx="1"/><path d="M14 14h2.5v2.5H14z"/><path d="M20.5 14v.01"/><path d="M14 20.5h.01"/><path d="M18 18h2.5v2.5H18z"/></symbol>
+<symbol id="i-mega" viewBox="0 0 24 24"><path d="M3.5 10.5v3a1 1 0 0 0 1 1H7l5 4v-13l-5 4H4.5a1 1 0 0 0-1 1z"/><path d="M15.5 9a4.2 4.2 0 0 1 0 6"/><path d="M18.5 6.3a8 8 0 0 1 0 11.4"/></symbol>
+<symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4.5 12h15"/><path d="m13 5.5 6.5 6.5-6.5 6.5"/></symbol>
+<symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.5 4.3 4.3L19 7.2"/></symbol>
+<symbol id="i-x" viewBox="0 0 24 24"><path d="m6.5 6.5 11 11"/><path d="m17.5 6.5-11 11"/></symbol>
+<symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14"/><path d="M5 12h14"/></symbol>
+<symbol id="i-moon" viewBox="0 0 24 24"><path d="M20 14.6A8.2 8.2 0 0 1 9.4 4 8.3 8.3 0 1 0 20 14.6z"/></symbol>
+<symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M5.3 18.7l1.4-1.4M17.3 6.7l1.4-1.4"/></symbol>
+<symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+<symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+<symbol id="i-pause" viewBox="0 0 24 24"><path d="M9 5.5v13M15 5.5v13" stroke-width="2.6"/></symbol>
+<symbol id="i-play" viewBox="0 0 24 24"><path d="M8 5.5v13l10.5-6.5z" style="fill:currentColor"/></symbol>
+<symbol id="i-warn" viewBox="0 0 24 24"><path d="M12 3.5 21.5 20h-19z"/><path d="M12 10v4.5"/><path d="M12 17.3v.2"/></symbol>
+<symbol id="i-phone" viewBox="0 0 24 24"><rect x="6.5" y="2.5" width="11" height="19" rx="2.5"/><path d="M11 18.5h2"/></symbol>
+<symbol id="i-nav" viewBox="0 0 24 24"><path d="M3.5 11 20.5 3.5 13 20.5l-1.9-7.6z"/></symbol>
+<symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m20 20-4.5-4.5"/></symbol>
+<symbol id="i-wallet" viewBox="0 0 24 24"><path d="M3.5 7.5h15a2.5 2.5 0 0 1 2.5 2.5v8a2.5 2.5 0 0 1-2.5 2.5h-13a2 2 0 0 1-2-2z"/><path d="M3.5 7.5 15 3.5v4"/><path d="M16.5 14h.5"/></symbol>
+<symbol id="i-doc" viewBox="0 0 24 24"><path d="M6 3h9l4 4v14H6z"/><path d="M14.5 3v4.5H19"/><path d="M9 12h7"/><path d="M9 16h5"/></symbol>
+</defs></svg>
+<a class="skip" href="#main">İçeriğe geç</a>
+<div class="announce"><div class="wrap"><span class="dot" aria-hidden="true"></span><span><b>İlk 14 gün ücretsiz</b><span class="ann-more"> · kart bilgisi istemeyiz.</span></span><a href="#fiyatlar">Paketlere bakın →</a></div></div>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="Görünür ana sayfa"><svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect class="m-bg" width="32" height="32" rx="10"/><path class="m-fg" d="M16 5.5c-4.6 0-8.3 3.5-8.3 8 0 5.8 8.3 12.9 8.3 12.9s8.3-7.1 8.3-12.9c0-4.5-3.7-8-8.3-8z"/><path class="m-ck" d="m12.6 13.6 2.4 2.4 4.5-4.6"/></svg><span>Görünür</span></a>
+    <nav class="nav-capsule" aria-label="Ana menü">
+      <a class="nav-link" href="#fiyatlar">Fiyatlar</a>
+      <a class="nav-link" href="harita-kaydi.html">Harita kaydı</a>
+      <a class="nav-link" href="yorum-karti.html">Yorum QR’ı</a>
+      <a class="nav-link" href="yorum-cevabi.html">Yorum cevabı</a>
+      <a class="nav-link" href="harita-reklami.html">Google reklamı</a>
+    </nav>
+    <div class="header-actions">
+      <a class="btn btn--primary nav-cta" href="karne.html">Ücretsiz Karne Al <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      <button class="icon-btn theme-btn" type="button" aria-label="Temayı değiştir"><svg class="icon ic-moon" aria-hidden="true"><use href="#i-moon"/></svg><svg class="icon ic-sun" aria-hidden="true"><use href="#i-sun"/></svg></button>
+      <button class="icon-btn menu-btn" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Menüyü aç" data-open-label="Menüyü aç" data-close-label="Menüyü kapat"><svg class="icon ic-menu" aria-hidden="true"><use href="#i-menu"/></svg><svg class="icon ic-close" aria-hidden="true"><use href="#i-close"/></svg></button>
+    </div>
+  </div>
+  <div class="mobile-menu" id="mobile-menu" hidden>
+    <nav class="wrap" aria-label="Mobil menü">
+      <a class="m-link" href="index.html" aria-current="page">Ana sayfa <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      <a class="m-link" href="#fiyatlar">Fiyatlar <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      <a class="m-link" href="harita-kaydi.html">Harita kaydı <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      <a class="m-link" href="yorum-karti.html">Yorum QR’ı <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      <a class="m-link" href="yorum-cevabi.html">Yorum cevabı <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      <a class="m-link" href="harita-reklami.html">Google reklamı <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      <a class="m-link" href="karne.html">Ücretsiz profil karnesi <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      <div class="m-row">
+        <a class="btn btn--primary btn--sm" href="karne.html">Ücretsiz Karne Al <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        <button class="m-theme theme-btn" type="button"><svg class="icon ic-moon" aria-hidden="true"><use href="#i-moon"/></svg><svg class="icon ic-sun" aria-hidden="true"><use href="#i-sun"/></svg><span>Tema</span></button>
+      </div>
+    </nav>
+  </div>
+</header>
+<main id="main">
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-copy">
+      <span class="tag">Yerel esnaf için Google yorumu ve harita kaydı</span>
+      <h1 class="h1">Google yorumlarınızın cevabını yapay zekâ hazırlar, siz <span class="grad">onaylarsınız.</span></h1>
+      <ul class="hero-points">
+        <li><span class="hp-ic"><svg class="icon" aria-hidden="true"><use href="#i-chat"/></svg></span><span><b>Cevap taslağını yapay zekâ yazar</b><span>Yeni yorumu WhatsApp’tan haber veririz; bağlantıya dokunup tek tuşla onaylarsınız.</span></span></li>
+        <li><span class="hp-ic"><svg class="icon" aria-hidden="true"><use href="#i-chart"/></svg></span><span><b>Haritadaki sıranızı ölçeriz</b><span>Haftada bir, semtinizin dört bir yanından.</span></span></li>
+        <li><span class="hp-ic"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg></span><span><b>Haritada yoksanız ekleriz</b><span>Google, Apple ve Yandex’e tek seferde.</span></span></li>
+      </ul>
+      <div class="cta-block">
+        <a class="btn btn--primary" href="karne.html">Ücretsiz profil karnemi iste <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        <a class="btn btn--glass" href="https://wa.me/905xxxxxxxxx" data-wa="karne">İsterseniz doğrudan yazın</a>
+        <p class="cta-note">Karneniz WhatsApp’tan gelir.</p>
+      </div>
+      <div class="hero-stats">
+        <div><b>14 gün</b><span>ücretsiz deneme</span></div>
+        <div><b>12 başlık</b><span>profil karnesinde</span></div>
+        <div><b>3 harita</b><span>Google, Apple, Yandex</span></div>
+      </div>
+    </div>
+    <div class="hero-visual"><div class="slider" data-slider data-pause-label="Slaytı durdur" data-play-label="Slaytı oynat">
+  <div class="slides" role="group" aria-label="Yorum yanıt akışı">
+    <figure class="slide is-active" data-slide="0"><img src="assets/img/yorum-1-1000.webp" srcset="assets/img/yorum-1-600.webp 600w, assets/img/yorum-1-1000.webp 1000w" sizes="(max-width: 960px) calc(100vw - 32px), 540px" width="1000" height="1000" alt="Restoran sayfasında müşterinin 2 yıldızlı yorum yazdığı ekran: siparişi 40 dakika gecikmiş." decoding="async" fetchpriority="high"><figcaption><b>1. Müşteri yorum bırakır</b>Olumsuz bir yorum bile anında yakalanır.</figcaption></figure>
+    <figure class="slide" data-slide="1" aria-hidden="true"><img src="assets/img/yorum-2-1000.webp" srcset="assets/img/yorum-2-600.webp 600w, assets/img/yorum-2-1000.webp 1000w" sizes="(max-width: 960px) calc(100vw - 32px), 540px" width="1000" height="1000" alt="WhatsApp sohbetinde hazırlanmış yanıt taslağı ile Onayla, Başka yanıt öner ve Düzenle düğmeleri." decoding="async" loading="lazy"><figcaption><b>2. Yanıt WhatsApp’ınıza gelir</b>Hazırlanan yanıtı tek tuşla onaylayın ya da başka yanıt isteyin.</figcaption></figure>
+    <figure class="slide" data-slide="2" aria-hidden="true"><img src="assets/img/yorum-3-1000.webp" srcset="assets/img/yorum-3-600.webp 600w, assets/img/yorum-3-1000.webp 1000w" sizes="(max-width: 960px) calc(100vw - 32px), 540px" width="1000" height="1000" alt="Yayınlanan işletme yanıtı, müşterinin yorumunun hemen altında görünüyor." decoding="async" loading="lazy"><figcaption><b>3. Onaylarsınız, yayınlanır</b>Siz hiçbir şey yazmadan yorum yanıtlanır.</figcaption></figure>
+    <button class="slider-toggle" type="button" aria-pressed="false" aria-label="Slaytı durdur"><svg class="icon ic-pause" aria-hidden="true"><use href="#i-pause"/></svg><svg class="icon ic-play" aria-hidden="true"><use href="#i-play"/></svg></button>
+  </div>
+  <ol class="steps-ind">
+    <li><button class="step-btn" type="button" data-go="0" data-text="Olumsuz bir yorum bile anında yakalanır." aria-current="step"><span class="step-num">1</span><span class="step-label">Müşteri yorum bırakır</span><span class="step-bar" aria-hidden="true"></span></button></li>
+    <li><button class="step-btn" type="button" data-go="1" data-text="Hazırlanan yanıtı tek tuşla onaylayın ya da başka yanıt isteyin."><span class="step-num">2</span><span class="step-label">Yanıt WhatsApp’ınıza gelir</span><span class="step-bar" aria-hidden="true"></span></button></li>
+    <li><button class="step-btn" type="button" data-go="2" data-text="Siz hiçbir şey yazmadan yorum yanıtlanır."><span class="step-num">3</span><span class="step-label">Onaylarsınız, yayınlanır</span><span class="step-bar" aria-hidden="true"></span></button></li>
+  </ol>
+  <div class="slider-foot"><p class="slider-caption" data-caption>Olumsuz bir yorum bile anında yakalanır.</p><p class="hero-fine">Görseller temsilîdir; isimler ve yorumlar örnektir.</p></div>
+</div></div>
+  </div>
+</section>
+<section class="section heatmap">
+  <div class="wrap">
+    <div class="section-head section-head--center"><span class="eyebrow">Isı haritası</span><h2 class="h2">Haritada kaçıncı sıradasınız, kim sizi geçiyor?</h2></div>
+    <ol class="flow" data-flow>
+  <li class="flow-item rv"><figure class="flow-fig"><img src="assets/img/harita-1-1000.webp" srcset="assets/img/harita-1-600.webp 600w, assets/img/harita-1-1000.webp 1000w" sizes="(max-width: 960px) min(520px, calc(100vw - 32px)), 360px" width="1000" height="1000" alt="Harita üstünde anahtar kelime arama kutusu: “kadıköy balık restoranı”." decoding="async" loading="lazy"><figcaption class="flow-cap"><span class="flow-n" aria-hidden="true">1</span><span><b>Anahtar kelimeyi seçeriz</b><p>Müşterilerinizin aradığı kelimeyle tarama yaparız.</p></span></figcaption></figure></li>
+  <li class="flow-item rv"><figure class="flow-fig"><img src="assets/img/harita-2-1000.webp" srcset="assets/img/harita-2-600.webp 600w, assets/img/harita-2-1000.webp 1000w" sizes="(max-width: 960px) min(520px, calc(100vw - 32px)), 360px" width="1000" height="1000" alt="Haritadaki her noktada işletmenin kaçıncı çıktığını gösteren renkli numaralar; ortalama sıra 10,9." decoding="async" loading="lazy"><figcaption class="flow-cap"><span class="flow-n" aria-hidden="true">2</span><span><b>Her noktadaki sıranızı görürsünüz</b><p>Mahallenin her köşesinde kaçıncı çıktığınız renklerle görünür.</p></span></figcaption></figure></li>
+  <li class="flow-item rv"><figure class="flow-fig"><img src="assets/img/harita-3-1000.webp" srcset="assets/img/harita-3-600.webp 600w, assets/img/harita-3-1000.webp 1000w" sizes="(max-width: 960px) min(520px, calc(100vw - 32px)), 360px" width="1000" height="1000" alt="Seçilen noktadaki sıralama listesi: işletme 14. sırada, önünde 13 işletme var." decoding="async" loading="lazy"><figcaption class="flow-cap"><span class="flow-n" aria-hidden="true">3</span><span><b>Rakiplerinizi görürsünüz</b><p>Bir noktaya basın, sizi geçen işletmeleri görün.</p></span></figcaption></figure></li>
+</ol>
+<div class="fine-notes"><p class="fine">Görseller temsilîdir; isimler ve yorumlar örnektir.</p><p class="fine">Harita verisi © OpenStreetMap contributors</p></div>
+  </div>
+</section>
+<section class="section problem">
+  <div class="wrap wrap--page">
+    <div class="section-head"><span class="eyebrow">Bugünkü durum</span><h2 class="h2">Google’da bugünkü tablo bu.</h2></div>
+    <div class="stats-grid">
+      <p class="stat-card"><span class="stat-n">10’da 7</span><span class="stat-t">işletme, son gelen yorumların hiçbirini cevaplamamış.</span></p>
+      <p class="stat-card stat-card--flame"><span class="stat-n">4’te 1</span><span class="stat-t">işletmenin cevap bekleyen olumsuz bir yorumu var.</span></p>
+    </div>
+    <p class="source">[Ay Yıl] tarihinde [N] yerel işletmenin herkese açık Google profilini inceledik.</p>
+    <p class="proof"><b>İlk müşterimiz:</b> X Semti’nde bir [sektör]. [N] yorumunun hiçbirine cevap verilmemişti; bugün hepsi cevaplı.</p>
+  </div>
+</section>
+<section class="section solution" id="nasil-calisir">
+  <div class="wrap">
+    <div class="section-head section-head--center"><span class="eyebrow">Nasıl çalışır</span><h2 class="h2">Siz sadece <span class="hl">“yayınla”</span>ya dokunun.</h2><p>Yeni bir yorum geldiğinde WhatsApp’tan haber veririz. Hazırladığımız cevabı okursunuz; içinize sinerse tek dokunuşla Google’da yayına girer.</p></div>
+    <ol class="flow" data-flow>
+  <li class="flow-item rv"><figure class="flow-fig"><img src="assets/img/yorum-1-1000.webp" srcset="assets/img/yorum-1-600.webp 600w, assets/img/yorum-1-1000.webp 1000w" sizes="(max-width: 960px) min(520px, calc(100vw - 32px)), 360px" width="1000" height="1000" alt="Restoran sayfasında müşterinin 2 yıldızlı yorum yazdığı ekran: siparişi 40 dakika gecikmiş." decoding="async" loading="lazy"><figcaption class="flow-cap"><span class="flow-n" aria-hidden="true">1</span><span><b>Müşteri yorum bırakır</b><p>Olumsuz bir yorum bile anında yakalanır.</p></span></figcaption></figure></li>
+  <li class="flow-item rv"><figure class="flow-fig"><img src="assets/img/yorum-2-1000.webp" srcset="assets/img/yorum-2-600.webp 600w, assets/img/yorum-2-1000.webp 1000w" sizes="(max-width: 960px) min(520px, calc(100vw - 32px)), 360px" width="1000" height="1000" alt="WhatsApp sohbetinde hazırlanmış yanıt taslağı ile Onayla, Başka yanıt öner ve Düzenle düğmeleri." decoding="async" loading="lazy"><figcaption class="flow-cap"><span class="flow-n" aria-hidden="true">2</span><span><b>Yanıt WhatsApp’ınıza gelir</b><p>Hazırlanan yanıtı tek tuşla onaylayın ya da başka yanıt isteyin.</p></span></figcaption></figure></li>
+  <li class="flow-item rv"><figure class="flow-fig"><img src="assets/img/yorum-3-1000.webp" srcset="assets/img/yorum-3-600.webp 600w, assets/img/yorum-3-1000.webp 1000w" sizes="(max-width: 960px) min(520px, calc(100vw - 32px)), 360px" width="1000" height="1000" alt="Yayınlanan işletme yanıtı, müşterinin yorumunun hemen altında görünüyor." decoding="async" loading="lazy"><figcaption class="flow-cap"><span class="flow-n" aria-hidden="true">3</span><span><b>Onaylarsınız, yayınlanır</b><p>Siz hiçbir şey yazmadan yorum yanıtlanır.</p></span></figcaption></figure></li>
+</ol>
+<div class="fine-notes"><p class="fine">Görseller temsilîdir; isimler ve yorumlar örnektir.</p></div>
+    <div class="guarantees">
+      <div class="g-card"><span class="g-ic"><svg class="icon" aria-hidden="true"><use href="#i-lock"/></svg></span><h3>Şifre sormayız.</h3><p>Profilinize bizi yönetici olarak eklersiniz. Profil yine sizin adınıza kalır.</p></div>
+      <div class="g-card"><span class="g-ic"><svg class="icon" aria-hidden="true"><use href="#i-eye"/></svg></span><h3>Onayınız olmadan hiçbir şey yayınlanmaz.</h3><p>Her cevabı önce siz görür, isterseniz düzeltirsiniz. 4–5 yıldızlı yorumların cevabını dilerseniz bize bırakın.</p></div>
+      <div class="g-card"><span class="g-ic"><svg class="icon" aria-hidden="true"><use href="#i-undo"/></svg></span><h3>Aylık ödeme, taahhüt yok.</h3><p>Bıraktığınızda ödediğiniz ayın sonuna kadar devam ederiz; kalan günler için iade yapılmaz. Profiliniz sizde kalır.</p></div>
+    </div>
+  </div>
+</section>
+<section class="section pricing" id="fiyatlar">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Fiyatlar</span>
+      <h2 class="h2">Ne kadar tutar?</h2>
+      <p>İlk 14 gün ücretsizdir, kart bilgisi istemeyiz. Deneme bitince devam etmek istemezseniz hiçbir şey ödemezsiniz; taahhüt de yok. Bırakmaya karar verirseniz ödediğiniz ayın sonuna kadar hizmet sürer, kalan günler için iade yapılmaz.</p>
+    </div>
+    <div class="plans">
+  <article class="plan">
+    <h3 class="plan-name">Cevap</h3>
+    <p class="plan-price">1.188 TL<small>/ay</small></p>
+    <p class="plan-vat">KDV dahil<br>(990 TL + KDV)</p>
+    
+    <div class="plan-cta-gap"></div>
+    <a class="btn btn--primary btn--sm btn--block" href="https://wa.me/905xxxxxxxxx" data-wa="cevap">14 gün ücretsiz deneyin</a>
+  </article>
+  <article class="plan plan--featured">
+    <h3 class="plan-name">Cevap + Takip</h3>
+    <p class="plan-price">2.388 TL<small>/ay</small></p>
+    <p class="plan-vat">KDV dahil<br>(1.990 TL + KDV)</p>
+    
+    <div class="plan-cta-gap"></div>
+    <a class="btn btn--primary btn--sm btn--block" href="https://wa.me/905xxxxxxxxx" data-wa="takip">14 gün ücretsiz deneyin</a>
+  </article>
+  <article class="plan plan--corp">
+    <div class="plan-head">
+      <h3 class="plan-name">Kurumsal</h3>
+      <p class="plan-price">Size özel</p>
+    </div>
+    <p class="plan-desc">Şube sayınıza ve ihtiyacınıza göre birlikte karar veririz.</p>
+    <div class="plan-cta-gap"></div>
+    <a class="btn btn--outline btn--sm" href="https://wa.me/905xxxxxxxxx" data-wa="kurumsal">Bizimle görüşün</a>
+  </article>
+</div>
+    <p class="after-plans">Başlangıcı ve ödemeyi WhatsApp üzerinden konuşuruz.</p>
+    <div class="table-wrap"><div class="table-scroll"><table class="cmp cmp--home">
+<thead><tr><th scope="col"><span class="sr-only">Özellik</span></th><th scope="col">Cevap</th><th scope="col" class="is-featured">Cevap + Takip</th><th scope="col">Kurumsal</th></tr></thead>
+<tbody>
+<tr><th scope="row">Yapay zekâyla cevap taslağı</th><td><span class="yes" role="img" aria-label="Var"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></span></td><td><span class="yes" role="img" aria-label="Var"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></span></td><td><span class="yes" role="img" aria-label="Var"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></span></td></tr>
+<tr><th scope="row">Tek dokunuşla onay</th><td><span class="yes" role="img" aria-label="Var"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></span></td><td><span class="yes" role="img" aria-label="Var"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></span></td><td><span class="yes" role="img" aria-label="Var"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></span></td></tr>
+<tr class="m-hide"><th scope="row">Yorum QR’ı, paket gerekmez</th><td>Ücretsiz</td><td>Ücretsiz</td><td>Ücretsiz</td></tr>
+<tr><th scope="row">Profil değişince haber</th><td><span class="yes" role="img" aria-label="Var"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></span></td><td><span class="yes" role="img" aria-label="Var"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></span></td><td><span class="yes" role="img" aria-label="Var"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></span></td></tr>
+<tr><th scope="row">Ayda bir profil karnesi</th><td><span class="yes" role="img" aria-label="Var"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></span></td><td><span class="yes" role="img" aria-label="Var"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></span></td><td><span class="yes" role="img" aria-label="Var"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></span></td></tr>
+<tr><th scope="row">Haftalık sıra ölçümü</th><td><span class="no" role="img" aria-label="Yok"><svg class="icon" aria-hidden="true"><use href="#i-x"/></svg></span></td><td><span class="yes" role="img" aria-label="Var"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></span></td><td><span class="yes" role="img" aria-label="Var"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></span></td></tr>
+<tr><th scope="row">Önünüze geçen rakipler</th><td><span class="no" role="img" aria-label="Yok"><svg class="icon" aria-hidden="true"><use href="#i-x"/></svg></span></td><td><span class="yes" role="img" aria-label="Var"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></span></td><td><span class="yes" role="img" aria-label="Var"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></span></td></tr>
+<tr><th scope="row">İyi yorumlara otomatik cevap</th><td><span class="no" role="img" aria-label="Yok"><svg class="icon" aria-hidden="true"><use href="#i-x"/></svg></span></td><td><span class="yes" role="img" aria-label="Var"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></span></td><td><span class="yes" role="img" aria-label="Var"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></span></td></tr>
+<tr class="m-hide"><th scope="row">Eski yorumlara cevap</th><td>100’e kadar</td><td>300’e kadar</td><td>Tümü</td></tr>
+<tr class="m-hide"><th scope="row">Şube sayısı</th><td>1</td><td>1</td><td>İhtiyaca göre</td></tr>
+<tr class="m-hide"><th scope="row">Takip edilen arama</th><td><span class="no" role="img" aria-label="Yok"><svg class="icon" aria-hidden="true"><use href="#i-x"/></svg></span></td><td>3</td><td>İhtiyaca göre</td></tr>
+</tbody></table></div></div>
+    <p class="table-note">Sıralamaya Google karar verir. Biz sıranızı ölçer ve size gösteririz; üst sıra garantisi vermeyiz.</p>
+    <a class="more-link" href="fiyatlar.html">Paket ayrıntıları ve sık sorulan sorular →</a>
+  </div>
+</section>
+<section class="section others">
+  <div class="wrap">
+    <div class="section-head"><span class="eyebrow">Hizmetler</span><h2 class="h2">Başka neler yapıyoruz?</h2></div>
+    <div class="others-grid">
+<a class="other" href="harita-kaydi.html"><span class="other-ic"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg></span><span class="other-t">Haritada görünmüyor musunuz?</span><span class="other-d">İşletmenizi Google, Apple ve Yandex haritalarına kaydedelim.</span><span class="other-more">Ayrıntılar <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span><span class="other-arrow"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span></a>
+<a class="other" href="yorum-karti.html"><span class="other-ic"><svg class="icon" aria-hidden="true"><use href="#i-qr"/></svg></span><span class="other-t">Kasaya yorum QR’ı</span><span class="other-d">Müşteri okutunca doğrudan yorum yazma ekranı açılır.</span><span class="other-more">Ayrıntılar <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span><span class="other-arrow"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span></a>
+<a class="other" href="yorum-cevabi.html"><span class="other-ic"><svg class="icon" aria-hidden="true"><use href="#i-chat"/></svg></span><span class="other-t">Kötü yoruma ne cevap verilir?</span><span class="other-d">Kuaför, kafe, oto servis gibi işler için örnek cevaplar.</span><span class="other-more">Ayrıntılar <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span><span class="other-arrow"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span></a>
+<a class="other" href="harita-reklami.html"><span class="other-ic"><svg class="icon" aria-hidden="true"><use href="#i-mega"/></svg></span><span class="other-t">Google’da reklam mı düşünüyorsunuz?</span><span class="other-d">Reklamınızı kendi hesabınızda kurar, her hafta takip ederiz.</span><span class="other-more">Ayrıntılar <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span><span class="other-arrow"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span></a>
+    </div>
+  </div>
+</section>
+<section class="section faq">
+  <div class="wrap">
+    <div class="faq-side"><span class="eyebrow">SSS</span><h2 class="h2">Aklınıza takılanlar</h2><p>Cevabını bulamadığınız bir soru varsa yazmanız yeterli.</p><a class="btn btn--outline btn--sm" href="https://wa.me/905xxxxxxxxx" data-wa="soru">WhatsApp’tan sorun →</a></div>
+    <div class="faq-list">
+<details class="qa"><summary>Google İşletmem, Google My Business, İşletme Profili… Hepsi aynı şey mi?<span class="qa-badge"><svg class="icon" aria-hidden="true"><use href="#i-plus"/></svg></span></summary><div class="qa-a"><p>Evet, hepsi aynı hizmetin farklı dönemlerdeki adları. Bugün Google İşletme Profili deniyor: işletmenizin Haritalar’da ve aramada çıkan kartı. Biz onu sizin izninizle yönetiriz, sahibi her zaman siz kalırsınız.</p></div></details>
+<details class="qa"><summary>İşletmem Google Haritalar’da görünmüyor. Ekleyebilir misiniz?<span class="qa-badge"><svg class="icon" aria-hidden="true"><use href="#i-plus"/></svg></span></summary><div class="qa-a"><p>Evet; Google, Apple ve Yandex haritalarına ekliyoruz. Haritalar kayıt için ücret almaz, bizim tek seferlik kurulum ücretimiz var: Google için [600 TL], Apple ve Yandex birlikte [3.588 TL], KDV dahil.</p><p>Doğrulamayı harita şirketi yapar (kısa bir video ya da kod ile); birkaç gün sürebilir. <a href="harita-kaydi.html">Harita kaydı ayrıntıları →</a></p></div></details>
+<details class="qa"><summary>Bilgisayarla aram iyi değil, yine de kullanabilir miyim?<span class="qa-badge"><svg class="icon" aria-hidden="true"><use href="#i-plus"/></svg></span></summary><div class="qa-a"><p>Kullanırsınız. Telefonunuza gelen mesajdaki düğmeye dokunmanız yeterli. Kurulumu da birlikte, birkaç dakikada yaparız.</p></div></details>
+<details class="qa"><summary>Sahte yorum yazıyor ya da kötü yorumu sildiriyor musunuz?<span class="qa-badge"><svg class="icon" aria-hidden="true"><use href="#i-plus"/></svg></span></summary><div class="qa-a"><p>Hayır. Haksız bulduğunuz bir yoruma sakin ve düzgün bir cevap taslağı hazırlarız; siz onay vermeden yayınlanmaz. <a href="yorum-cevabi.html">Örnek cevaplar →</a></p></div></details>
+<details class="qa"><summary>Google’la bir bağlantınız var mı?<span class="qa-badge"><svg class="icon" aria-hidden="true"><use href="#i-plus"/></svg></span></summary><div class="qa-a"><p>Yok. Bağımsız bir hizmetiz; profilinize yalnızca sizin verdiğiniz yönetici yetkisiyle erişiriz.</p></div></details>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="wrap">
+    <div class="band karne-band">
+      <div>
+        <span class="tag">Ücretsiz karne</span>
+        <h2 class="h2" style="margin-top:18px">Önce ücretsiz karnenizi <span class="grad">görün.</span></h2>
+        <p>Google profilinizi 12 başlıkta inceleyip sonucu WhatsApp’tan iletelim. Ücret yok, hiçbir şeye bağlanmazsınız.</p>
+        <a class="btn btn--primary" href="karne.html">Ücretsiz profil karnemi iste <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      </div>
+      <div class="report" role="img" aria-label="Örnek karne">
+        <div class="score"><svg viewBox="0 0 36 36" aria-hidden="true"><circle class="track" cx="18" cy="18" r="15.9155" pathLength="100"/><circle class="arc" cx="18" cy="18" r="15.9155" pathLength="100" style="stroke-dasharray:52 100"/></svg><div class="score-n"><b>52</b><small>/100</small><span>örnek puan</span></div></div>
+        <div class="report-head">GOOGLE PROFİL KARNESİ</div>
+        <div class="report-body">
+          <div class="report-name">Örnek işletme</div>
+          <div class="report-row"><span>Kötü yorumlara cevap</span><b class="v-bad">zayıf</b></div>
+          <div class="report-row"><span>En son yorum</span><b class="v-warn">3 ay önce</b></div>
+          <div class="report-row"><span>Fotoğraflar</span><b class="v-bad">rakiplerden az</b></div>
+          <div class="report-row"><span>Çalışma saatleri</span><b class="v-good">tamam</b></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-brand"><a class="brand" href="index.html"><svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect class="m-bg" width="32" height="32" rx="10"/><path class="m-fg" d="M16 5.5c-4.6 0-8.3 3.5-8.3 8 0 5.8 8.3 12.9 8.3 12.9s8.3-7.1 8.3-12.9c0-4.5-3.7-8-8.3-8z"/><path class="m-ck" d="m12.6 13.6 2.4 2.4 4.5-4.6"/></svg><span>Görünür</span></a><p class="footer-text">Görünür bir X Şirketi ürünüdür. Kurucu: X Kişi. Google ile bağlantılı değildir.</p></div>
+    <nav class="footer-links" aria-label="Alt bilgi">
+      
+      <a href="gizlilik.html">Gizlilik ve kişisel veriler</a>
+      <a href="kosullar.html">Kullanım koşulları</a>
+      <button type="button" data-open-cookie>Çerez tercihleri</button>
+      <a href="en.html" hreflang="en">English</a>
+    </nav>
+  </div>
+</footer>
+<a class="wa-float" href="https://wa.me/905xxxxxxxxx" data-wa="genel"><svg class="icon" aria-hidden="true"><use href="#i-msg"/></svg><span>WhatsApp’tan yazın</span></a>
+<div class="cookie" id="cookie" role="dialog" aria-label="Çerez seçimi" hidden>
+  <div data-view="main" class="cookie-pref">
+    <p>Ziyaretleri saymak ve reklamlarımızın sonucunu ölçmek için çerez kullanıyoruz. İzin verirseniz reklam ölçümü için bazı bilgileri sunucumuzdan Meta’ya da iletebiliriz. <a href="cerezler.html">Çerez aydınlatma metni</a></p>
+    <div class="cookie-actions">
+      <button type="button" class="btn-solid" data-ck="all">Tümüne izin ver</button>
+      <button type="button" class="btn-solid" data-ck="necessary">Sadece gerekli olanlar</button>
+      <button type="button" class="btn-ghost" data-ck="prefs">Tercihler</button>
+    </div>
+  </div>
+  <div data-view="prefs" class="cookie-pref" hidden>
+    <p><b>Çerez tercihleri</b></p>
+    <label class="cookie-opt" for="ck-analytics"><input type="checkbox" id="ck-analytics"><span><b>Ziyaret sayımı (Google Analytics)</b><span>Siteye kaç kişinin geldiğini ve hangi sayfaların okunduğunu görmemizi sağlar.</span></span></label>
+    <label class="cookie-opt" for="ck-ads"><input type="checkbox" id="ck-ads"><span><b>Reklam (Meta Pixel)</b><span>Facebook ve Instagram reklamlarımızı ölçmek için Meta’ya çerez kimliği, IP adresi, tarayıcı bilgisi, sayfa adresi ve buton tıklamaları gönderilir.</span></span></label>
+    <div class="cookie-actions">
+      <button type="button" class="btn-solid" data-ck="save">Seçimi kaydet</button>
+      <button type="button" class="btn-solid" data-ck="necessary">Sadece gerekli olanlar</button>
+    </div>
+  </div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>

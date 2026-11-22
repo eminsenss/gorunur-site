@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Görünür — AI reply drafts for your Google reviews</title>
+<meta name="description" content="Google review replies, map rank tracking and map listings for local businesses in Turkey. AI drafts the reply, you approve it on WhatsApp with one tap.">
+<link rel="canonical" href="https://gorunur.com/en">
+<link rel="alternate" hreflang="tr" href="https://gorunur.com/">
+<link rel="alternate" hreflang="en" href="https://gorunur.com/en">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Görünür">
+<meta property="og:title" content="Görünür — AI reply drafts for your Google reviews">
+<meta property="og:description" content="Google review replies, map rank tracking and map listings for local businesses in Turkey. AI drafts the reply, you approve it on WhatsApp with one tap.">
+<meta property="og:url" content="https://gorunur.com/en">
+<meta property="og:image" content="https://gorunur.com/og-image.png">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="tr_TR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#16307d">
+<!-- Doğrulama kodları (Search Console, Bing, Facebook) buraya eklenecek. -->
+<!-- Analytics (G-XXXXXXX) ve Meta Pixel yalnızca çerez izniyle yüklenecek; bu sürümde hiç yüklenmez. -->
+<script>try{var t=localStorage.getItem('gr-tema');if(t==='dark'||t==='light')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&amp;display=swap">
+<link rel="preload" as="image" href="assets/img/yorum-1-1000.webp" imagesrcset="assets/img/yorum-1-600.webp 600w, assets/img/yorum-1-1000.webp 1000w" imagesizes="(max-width: 960px) calc(100vw - 32px), 540px">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs>
+<symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 11.5a8.5 8.5 0 0 1-12.3 7.6L3.5 20.5l1.3-4.8A8.5 8.5 0 1 1 21 11.5z"/><path d="M8.6 11.6l2.3 2.3 4.6-4.7"/></symbol>
+<symbol id="i-msg" viewBox="0 0 24 24"><path d="M20.5 12a8.5 8.5 0 0 1-12.4 7.5L3.5 20.5l1-4.4A8.5 8.5 0 1 1 20.5 12z"/><path d="M8.5 12h.01M12 12h.01M15.5 12h.01" stroke-width="2.6"/></symbol>
+<symbol id="i-chart" viewBox="0 0 24 24"><path d="M3.5 20.5h17"/><path d="M7 17v-5"/><path d="M12 17V7"/><path d="M17 17v-8"/></symbol>
+<symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21.5s-7-6.1-7-11.6a7 7 0 0 1 14 0c0 5.5-7 11.6-7 11.6z"/><path d="M12 7v5.4"/><path d="M9.3 9.7h5.4"/></symbol>
+<symbol id="i-lock" viewBox="0 0 24 24"><rect x="4.5" y="10.5" width="15" height="10.5" rx="2.5"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/><path d="M12 14.5v2.5"/></symbol>
+<symbol id="i-eye" viewBox="0 0 24 24"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></symbol>
+<symbol id="i-undo" viewBox="0 0 24 24"><path d="M9 14 4 9l5-5"/><path d="M4 9h10.5a5.5 5.5 0 0 1 0 11H11"/></symbol>
+<symbol id="i-qr" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="6.5" height="6.5" rx="1"/><rect x="14" y="3.5" width="6.5" height="6.5" rx="1"/><rect x="3.5" y="14" width="6.5" height="6.5" rx="1"/><path d="M14 14h2.5v2.5H14z"/><path d="M20.5 14v.01"/><path d="M14 20.5h.01"/><path d="M18 18h2.5v2.5H18z"/></symbol>
+<symbol id="i-mega" viewBox="0 0 24 24"><path d="M3.5 10.5v3a1 1 0 0 0 1 1H7l5 4v-13l-5 4H4.5a1 1 0 0 0-1 1z"/><path d="M15.5 9a4.2 4.2 0 0 1 0 6"/><path d="M18.5 6.3a8 8 0 0 1 0 11.4"/></symbol>
+<symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4.5 12h15"/><path d="m13 5.5 6.5 6.5-6.5 6.5"/></symbol>
+<symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.5 4.3 4.3L19 7.2"/></symbol>
+<symbol id="i-x" viewBox="0 0 24 24"><path d="m6.5 6.5 11 11"/><path d="m17.5 6.5-11 11"/></symbol>
+<symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14"/><path d="M5 12h14"/></symbol>
+<symbol id="i-moon" viewBox="0 0 24 24"><path d="M20 14.6A8.2 8.2 0 0 1 9.4 4 8.3 8.3 0 1 0 20 14.6z"/></symbol>
+<symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M5.3 18.7l1.4-1.4M17.3 6.7l1.4-1.4"/></symbol>
+<symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+<symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+<symbol id="i-pause" viewBox="0 0 24 24"><path d="M9 5.5v13M15 5.5v13" stroke-width="2.6"/></symbol>
+<symbol id="i-play" viewBox="0 0 24 24"><path d="M8 5.5v13l10.5-6.5z" style="fill:currentColor"/></symbol>
+<symbol id="i-warn" viewBox="0 0 24 24"><path d="M12 3.5 21.5 20h-19z"/><path d="M12 10v4.5"/><path d="M12 17.3v.2"/></symbol>
+<symbol id="i-phone" viewBox="0 0 24 24"><rect x="6.5" y="2.5" width="11" height="19" rx="2.5"/><path d="M11 18.5h2"/></symbol>
+<symbol id="i-nav" viewBox="0 0 24 24"><path d="M3.5 11 20.5 3.5 13 20.5l-1.9-7.6z"/></symbol>
+<symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m20 20-4.5-4.5"/></symbol>
+<symbol id="i-wallet" viewBox="0 0 24 24"><path d="M3.5 7.5h15a2.5 2.5 0 0 1 2.5 2.5v8a2.5 2.5 0 0 1-2.5 2.5h-13a2 2 0 0 1-2-2z"/><path d="M3.5 7.5 15 3.5v4"/><path d="M16.5 14h.5"/></symbol>
+<symbol id="i-doc" viewBox="0 0 24 24"><path d="M6 3h9l4 4v14H6z"/><path d="M14.5 3v4.5H19"/><path d="M9 12h7"/><path d="M9 16h5"/></symbol>
+</defs></svg>
+<a class="skip" href="#main">Skip to content</a>
+<div class="announce"><div class="wrap"><span class="dot" aria-hidden="true"></span><span><b>First 14 days free</b><span class="ann-more"> · no card needed.</span></span><a href="#pricing">See pricing →</a></div></div>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="en.html" aria-label="Görünür home"><svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect class="m-bg" width="32" height="32" rx="10"/><path class="m-fg" d="M16 5.5c-4.6 0-8.3 3.5-8.3 8 0 5.8 8.3 12.9 8.3 12.9s8.3-7.1 8.3-12.9c0-4.5-3.7-8-8.3-8z"/><path class="m-ck" d="m12.6 13.6 2.4 2.4 4.5-4.6"/></svg><span>Görünür</span></a>
+    <nav class="nav-capsule" aria-label="Main menu">
+      <a class="nav-link" href="#pricing">Pricing</a>
+      <a class="nav-link" href="harita-kaydi.html">Map listing</a>
+      <a class="nav-link" href="yorum-karti.html">Review QR</a>
+      <a class="nav-link" href="yorum-cevabi.html">Review replies</a>
+      <a class="nav-link" href="harita-reklami.html">Google Ads</a>
+    </nav>
+    <div class="header-actions">
+      <a class="btn btn--primary nav-cta" href="karne.html">Get Free Report <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      <button class="icon-btn theme-btn" type="button" aria-label="Change theme"><svg class="icon ic-moon" aria-hidden="true"><use href="#i-moon"/></svg><svg class="icon ic-sun" aria-hidden="true"><use href="#i-sun"/></svg></button>
+      <button class="icon-btn menu-btn" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu" data-open-label="Open menu" data-close-label="Close menu"><svg class="icon ic-menu" aria-hidden="true"><use href="#i-menu"/></svg><svg class="icon ic-close" aria-hidden="true"><use href="#i-close"/></svg></button>
+    </div>
+  </div>
+  <div class="mobile-menu" id="mobile-menu" hidden>
+    <nav class="wrap" aria-label="Mobile menu">
+      <a class="m-link" href="en.html" aria-current="page">Home <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      <a class="m-link" href="#pricing">Pricing <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      <a class="m-link" href="harita-kaydi.html">Map listing <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      <a class="m-link" href="yorum-karti.html">Review QR <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      <a class="m-link" href="yorum-cevabi.html">Review replies <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      <a class="m-link" href="harita-reklami.html">Google Ads <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      <a class="m-link" href="karne.html">Free profile report <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      <div class="m-row">
+        <a class="btn btn--primary btn--sm" href="karne.html">Get Free Report <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        <button class="m-theme theme-btn" type="button"><svg class="icon ic-moon" aria-hidden="true"><use href="#i-moon"/></svg><svg class="icon ic-sun" aria-hidden="true"><use href="#i-sun"/></svg><span>Theme</span></button>
+      </div>
+    </nav>
+  </div>
+</header>
+<main id="main">
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-copy">
+      <span class="tag">Google reviews and map listings for local businesses</span>
+      <h1 class="h1">AI drafts the replies to your Google reviews. You approve <span class="grad">them.</span></h1>
+      <ul class="hero-points">
+        <li><span class="hp-ic"><svg class="icon" aria-hidden="true"><use href="#i-chat"/></svg></span><span><b>AI drafts your review replies</b><span>We message you on WhatsApp; open the link and approve with one tap.</span></span></li>
+        <li><span class="hp-ic"><svg class="icon" aria-hidden="true"><use href="#i-chart"/></svg></span><span><b>We measure your rank on the map</b><span>Every week, from every corner of your neighbourhood.</span></span></li>
+        <li><span class="hp-ic"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg></span><span><b>Not on the map? We list you</b><span>On Google, Apple and Yandex together.</span></span></li>
+      </ul>
+      <div class="cta-block">
+        <a class="btn btn--primary" href="karne.html">Get my free profile report <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        <a class="btn btn--glass" href="https://wa.me/905xxxxxxxxx" data-wa="en">Or just message us</a>
+        <p class="cta-note">The report comes to your WhatsApp.</p>
+      </div>
+      <div class="hero-stats">
+        <div><b>14 days</b><span>free trial</span></div>
+        <div><b>12 checks</b><span>in the profile report</span></div>
+        <div><b>3 maps</b><span>Google, Apple, Yandex</span></div>
+      </div>
+    </div>
+    <div class="hero-visual"><div class="slider" data-slider data-pause-label="Pause slideshow" data-play-label="Play slideshow">
+  <div class="slides" role="group" aria-label="How a review reply works">
+    <figure class="slide is-active" data-slide="0"><img src="assets/img/yorum-1-1000.webp" srcset="assets/img/yorum-1-600.webp 600w, assets/img/yorum-1-1000.webp 1000w" sizes="(max-width: 960px) calc(100vw - 32px), 540px" width="1000" height="1000" alt="A restaurant page where a customer writes a 2-star review: the order was 40 minutes late." decoding="async" fetchpriority="high"><figcaption><b>1. The customer leaves a review</b>Even a negative review is caught right away.</figcaption></figure>
+    <figure class="slide" data-slide="1" aria-hidden="true"><img src="assets/img/yorum-2-1000.webp" srcset="assets/img/yorum-2-600.webp 600w, assets/img/yorum-2-1000.webp 1000w" sizes="(max-width: 960px) calc(100vw - 32px), 540px" width="1000" height="1000" alt="A WhatsApp chat with a drafted reply and the buttons Approve, Suggest another reply and Edit." decoding="async" loading="lazy"><figcaption><b>2. The reply comes to your WhatsApp</b>Approve the drafted reply with one tap, or ask for another one.</figcaption></figure>
+    <figure class="slide" data-slide="2" aria-hidden="true"><img src="assets/img/yorum-3-1000.webp" srcset="assets/img/yorum-3-600.webp 600w, assets/img/yorum-3-1000.webp 1000w" sizes="(max-width: 960px) calc(100vw - 32px), 540px" width="1000" height="1000" alt="The published business reply shown right under the customer’s review." decoding="async" loading="lazy"><figcaption><b>3. You approve, it goes live</b>The review gets answered without you typing a word.</figcaption></figure>
+    <button class="slider-toggle" type="button" aria-pressed="false" aria-label="Pause slideshow"><svg class="icon ic-pause" aria-hidden="true"><use href="#i-pause"/></svg><svg class="icon ic-play" aria-hidden="true"><use href="#i-play"/></svg></button>
+  </div>
+  <ol class="steps-ind">
+    <li><button class="step-btn" type="button" data-go="0" data-text="Even a negative review is caught right away." aria-current="step"><span class="step-num">1</span><span class="step-label">The customer leaves a review</span><span class="step-bar" aria-hidden="true"></span></button></li>
+    <li><button class="step-btn" type="button" data-go="1" data-text="Approve the drafted reply with one tap, or ask for another one."><span class="step-num">2</span><span class="step-label">The reply comes to your WhatsApp</span><span class="step-bar" aria-hidden="true"></span></button></li>
+    <li><button class="step-btn" type="button" data-go="2" data-text="The review gets answered without you typing a word."><span class="step-num">3</span><span class="step-label">You approve, it goes live</span><span class="step-bar" aria-hidden="true"></span></button></li>
+  </ol>
+  <div class="slider-foot"><p class="slider-caption" data-caption>Even a negative review is caught right away.</p><p class="hero-fine">Images are illustrative; names and reviews are examples.</p></div>
+</div></div>
+  </div>
+</section>
+<section class="section heatmap">
+  <div class="wrap">
+    <div class="section-head section-head--center"><span class="eyebrow">Heat map</span><h2 class="h2">What’s your rank on the map, and who is beating you?</h2></div>
+    <ol class="flow" data-flow>
+  <li class="flow-item rv"><figure class="flow-fig"><img src="assets/img/harita-1-1000.webp" srcset="assets/img/harita-1-600.webp 600w, assets/img/harita-1-1000.webp 1000w" sizes="(max-width: 960px) min(520px, calc(100vw - 32px)), 360px" width="1000" height="1000" alt="A keyword search box on a map: “kadıköy balık restoranı”." decoding="async" loading="lazy"><figcaption class="flow-cap"><span class="flow-n" aria-hidden="true">1</span><span><b>We pick the keyword</b><p>We scan with the words your customers search for.</p></span></figcaption></figure></li>
+  <li class="flow-item rv"><figure class="flow-fig"><img src="assets/img/harita-2-1000.webp" srcset="assets/img/harita-2-600.webp 600w, assets/img/harita-2-1000.webp 1000w" sizes="(max-width: 960px) min(520px, calc(100vw - 32px)), 360px" width="1000" height="1000" alt="Coloured numbers on the map showing the business’s rank at every point; average rank 10.9." decoding="async" loading="lazy"><figcaption class="flow-cap"><span class="flow-n" aria-hidden="true">2</span><span><b>You see your rank at every point</b><p>Colours show where you rank on every corner of the neighbourhood.</p></span></figcaption></figure></li>
+  <li class="flow-item rv"><figure class="flow-fig"><img src="assets/img/harita-3-1000.webp" srcset="assets/img/harita-3-600.webp 600w, assets/img/harita-3-1000.webp 1000w" sizes="(max-width: 960px) min(520px, calc(100vw - 32px)), 360px" width="1000" height="1000" alt="The ranking list for a selected point: the business is 14th, with 13 businesses ahead." decoding="async" loading="lazy"><figcaption class="flow-cap"><span class="flow-n" aria-hidden="true">3</span><span><b>You see your competitors</b><p>Tap a point to see the businesses ranking above you.</p></span></figcaption></figure></li>
+</ol>
+<div class="fine-notes"><p class="fine">Images are illustrative; names and reviews are examples.</p><p class="fine">Map data © OpenStreetMap contributors</p></div>
+  </div>
+</section>
+<section class="section problem">
+  <div class="wrap wrap--page">
+    <div class="section-head"><span class="eyebrow">Today</span><h2 class="h2">This is what Google shows today.</h2></div>
+    <div class="stats-grid">
+      <p class="stat-card"><span class="stat-n">7 in 10</span><span class="stat-t">businesses have not replied to any of their recent reviews.</span></p>
+      <p class="stat-card stat-card--flame"><span class="stat-n">1 in 4</span><span class="stat-t">businesses have a bad review still waiting for an answer.</span></p>
+    </div>
+    <p class="source">In [Month Year] we looked at the public Google profiles of [N] local businesses.</p>
+    <p class="proof"><b>Our first customer:</b> a [sector] in X Semti. None of its [N] reviews had a reply; now every one does.</p>
+  </div>
+</section>
+<section class="section solution" id="how-it-works">
+  <div class="wrap">
+    <div class="section-head section-head--center"><span class="eyebrow">How it works</span><h2 class="h2">All you do is tap <span class="hl">“publish”</span>.</h2><p>When a new review arrives we message you on WhatsApp. Read the reply we drafted; if you like it, one tap puts it on Google.</p></div>
+    <ol class="flow" data-flow>
+  <li class="flow-item rv"><figure class="flow-fig"><img src="assets/img/yorum-1-1000.webp" srcset="assets/img/yorum-1-600.webp 600w, assets/img/yorum-1-1000.webp 1000w" sizes="(max-width: 960px) min(520px, calc(100vw - 32px)), 360px" width="1000" height="1000" alt="A restaurant page where a customer writes a 2-star review: the order was 40 minutes late." decoding="async" loading="lazy"><figcaption class="flow-cap"><span class="flow-n" aria-hidden="true">1</span><span><b>The customer leaves a review</b><p>Even a negative review is caught right away.</p></span></figcaption></figure></li>
+  <li class="flow-item rv"><figure class="flow-fig"><img src="assets/img/yorum-2-1000.webp" srcset="assets/img/yorum-2-600.webp 600w, assets/img/yorum-2-1000.webp 1000w" sizes="(max-width: 960px) min(520px, calc(100vw - 32px)), 360px" width="1000" height="1000" alt="A WhatsApp chat with a drafted reply and the buttons Approve, Suggest another reply and Edit." decoding="async" loading="lazy"><figcaption class="flow-cap"><span class="flow-n" aria-hidden="true">2</span><span><b>The reply comes to your WhatsApp</b><p>Approve the drafted reply with one tap, or ask for another one.</p></span></figcaption></figure></li>
+  <li class="flow-item rv"><figure class="flow-fig"><img src="assets/img/yorum-3-1000.webp" srcset="assets/img/yorum-3-600.webp 600w, assets/img/yorum-3-1000.webp 1000w" sizes="(max-width: 960px) min(520px, calc(100vw - 32px)), 360px" width="1000" height="1000" alt="The published business reply shown right under the customer’s review." decoding="async" loading="lazy"><figcaption class="flow-cap"><span class="flow-n" aria-hidden="true">3</span><span><b>You approve, it goes live</b><p>The review gets answered without you typing a word.</p></span></figcaption></figure></li>
+</ol>
+<div class="fine-notes"><p class="fine">Images are illustrative; names and reviews are examples.</p></div>
+    <div class="guarantees">
+      <div class="g-card"><span class="g-ic"><svg class="icon" aria-hidden="true"><use href="#i-lock"/></svg></span><h3>We never ask for your password.</h3><p>You add us to your profile as a manager. The profile stays yours.</p></div>
+      <div class="g-card"><span class="g-ic"><svg class="icon" aria-hidden="true"><use href="#i-eye"/></svg></span><h3>Nothing goes out without you.</h3><p>You see every reply first and can change it. If you like, leave the 4–5 star ones to us.</p></div>
+      <div class="g-card"><span class="g-ic"><svg class="icon" aria-hidden="true"><use href="#i-undo"/></svg></span><h3>Pay monthly, no commitment.</h3><p>If you stop, the service runs to the end of the paid month; the remaining days are not refunded. Your profile stays with you.</p></div>
+    </div>
+  </div>
+</section>
+<section class="section" id="pricing">
+  <div class="wrap wrap--narrow">
+    <div class="section-head"><span class="eyebrow">Pricing</span><h2 class="h2">What it costs</h2></div>
+    <div style="display:grid;gap:16px">
+      <div class="inline-card">
+        <div><b>From 1,188 TL a month, VAT included.</b><p>The first 14 days are free and we never ask for a card. No commitment: stop whenever you like.</p></div>
+        <a class="btn btn--outline" href="fiyatlar.html" hreflang="tr">See all plans (Turkish)</a>
+      </div>
+      <div class="inline-card">
+        <div><b>A review QR for your counter, free.</b><p>Customers scan it and land straight on the screen where they write a review. No package needed.</p></div>
+        <a class="btn btn--outline" href="yorum-karti.html" hreflang="tr">Review QR (Turkish)</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section others">
+  <div class="wrap">
+    <div class="section-head"><span class="eyebrow">Services</span><h2 class="h2">What else we do</h2></div>
+    <div class="others-grid">
+<a class="other" href="harita-kaydi.html"><span class="other-ic"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg></span><span class="other-t">Not on the map?</span><span class="other-d">We add your business to Google, Apple and Yandex maps.</span><span class="other-more">Details <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span><span class="other-arrow"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span></a>
+<a class="other" href="yorum-karti.html"><span class="other-ic"><svg class="icon" aria-hidden="true"><use href="#i-qr"/></svg></span><span class="other-t">A review QR for your counter</span><span class="other-d">Customers scan it and land on the review screen.</span><span class="other-more">Details <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span><span class="other-arrow"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span></a>
+<a class="other" href="yorum-cevabi.html"><span class="other-ic"><svg class="icon" aria-hidden="true"><use href="#i-chat"/></svg></span><span class="other-t">How to answer a bad review</span><span class="other-d">Sample replies for salons, cafés and garages (Turkish).</span><span class="other-more">Details <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span><span class="other-arrow"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span></a>
+<a class="other" href="harita-reklami.html"><span class="other-ic"><svg class="icon" aria-hidden="true"><use href="#i-mega"/></svg></span><span class="other-t">Thinking about Google Ads?</span><span class="other-d">We set up and run the ads in your own account.</span><span class="other-more">Details <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span><span class="other-arrow"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span></a>
+    </div>
+  </div>
+</section>
+<section class="section faq">
+  <div class="wrap">
+    <div class="faq-side"><span class="eyebrow">FAQ</span><h2 class="h2">Common questions</h2><p>Didn’t find your answer?</p><a class="btn btn--outline btn--sm" href="https://wa.me/905xxxxxxxxx" data-wa="en">Ask us on WhatsApp →</a></div>
+    <div class="faq-list">
+<details class="qa"><summary>Google My Business, Business Profile… are they the same thing?<span class="qa-badge"><svg class="icon" aria-hidden="true"><use href="#i-plus"/></svg></span></summary><div class="qa-a"><p>Yes. They are older and newer names for the same thing: the card that shows your business on Google Maps and Search. We manage it with your permission, and it always stays yours.</p></div></details>
+<details class="qa"><summary>My business is not on Google Maps. Can you add it?<span class="qa-badge"><svg class="icon" aria-hidden="true"><use href="#i-plus"/></svg></span></summary><div class="qa-a"><p>Yes, on Google, Apple and Yandex. The maps charge nothing for a listing; we charge a one-off setup fee. Verification is done by the map provider and can take a few days. <a href="harita-kaydi.html">Details (Turkish) →</a></p></div></details>
+<details class="qa"><summary>I am not good with computers. Can I still use it?<span class="qa-badge"><svg class="icon" aria-hidden="true"><use href="#i-plus"/></svg></span></summary><div class="qa-a"><p>Yes. You only tap the button in the message on your phone. We do the setup together in a few minutes.</p></div></details>
+<details class="qa"><summary>Do you write fake reviews or get bad reviews removed?<span class="qa-badge"><svg class="icon" aria-hidden="true"><use href="#i-plus"/></svg></span></summary><div class="qa-a"><p>No. We draft a calm, polite reply to a review you find unfair, and nothing is published until you approve it.</p></div></details>
+<details class="qa"><summary>Are you connected to Google?<span class="qa-badge"><svg class="icon" aria-hidden="true"><use href="#i-plus"/></svg></span></summary><div class="qa-a"><p>No. We are an independent service and only use the manager access you give us.</p></div></details>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="wrap">
+    <div class="band karne-band">
+      <div>
+        <span class="tag">Free report</span>
+        <h2 class="h2" style="margin-top:18px">Start with your free <span class="grad">report.</span></h2>
+        <p>We check your Google profile on 12 points and send the report to your WhatsApp. Free, with no strings attached.</p>
+        <a class="btn btn--primary" href="karne.html">Get my free profile report <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      </div>
+      <div class="report" role="img" aria-label="Sample report card">
+        <div class="score"><svg viewBox="0 0 36 36" aria-hidden="true"><circle class="track" cx="18" cy="18" r="15.9155" pathLength="100"/><circle class="arc" cx="18" cy="18" r="15.9155" pathLength="100" style="stroke-dasharray:52 100"/></svg><div class="score-n"><b>52</b><small>/100</small><span>sample score</span></div></div>
+        <div class="report-head">GOOGLE PROFILE REPORT</div>
+        <div class="report-body">
+          <div class="report-name">Sample business</div>
+          <div class="report-row"><span>Replies to bad reviews</span><b class="v-bad">weak</b></div>
+          <div class="report-row"><span>Latest review</span><b class="v-warn">3 months ago</b></div>
+          <div class="report-row"><span>Photos</span><b class="v-bad">fewer than rivals</b></div>
+          <div class="report-row"><span>Opening hours</span><b class="v-good">fine</b></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-brand"><a class="brand" href="en.html"><svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect class="m-bg" width="32" height="32" rx="10"/><path class="m-fg" d="M16 5.5c-4.6 0-8.3 3.5-8.3 8 0 5.8 8.3 12.9 8.3 12.9s8.3-7.1 8.3-12.9c0-4.5-3.7-8-8.3-8z"/><path class="m-ck" d="m12.6 13.6 2.4 2.4 4.5-4.6"/></svg><span>Görünür</span></a><p class="footer-text">Görünür is a product of X Şirketi. Founder: X Kişi. Not affiliated with Google.</p></div>
+    <nav class="footer-links" aria-label="Footer">
+      <a href="gizlilik.html">Privacy (Turkish)</a>
+      <a href="kosullar.html">Terms (Turkish)</a>
+      <button type="button" data-open-cookie>Cookie preferences</button>
+      <a href="index.html" hreflang="tr">Türkçe</a>
+    </nav>
+  </div>
+</footer>
+<a class="wa-float" href="https://wa.me/905xxxxxxxxx" data-wa="en"><svg class="icon" aria-hidden="true"><use href="#i-msg"/></svg><span>Message us on WhatsApp</span></a>
+<div class="cookie" id="cookie" role="dialog" aria-label="Cookie choices" hidden>
+  <div data-view="main" class="cookie-pref">
+    <p>We use cookies to count visits and measure our ads. If you allow it, we may also send some ad-measurement data from our server to Meta. <a href="cerezler.html">Cookie notice (Turkish)</a></p>
+    <div class="cookie-actions">
+      <button type="button" class="btn-solid" data-ck="all">Allow all</button>
+      <button type="button" class="btn-solid" data-ck="necessary">Only necessary</button>
+      <button type="button" class="btn-ghost" data-ck="prefs">Preferences</button>
+    </div>
+  </div>
+  <div data-view="prefs" class="cookie-pref" hidden>
+    <p><b>Cookie preferences</b></p>
+    <label class="cookie-opt" for="ck-analytics"><input type="checkbox" id="ck-analytics"><span><b>Visit counting (Google Analytics)</b><span>Shows how many people visit and which pages they read.</span></span></label>
+    <label class="cookie-opt" for="ck-ads"><input type="checkbox" id="ck-ads"><span><b>Advertising (Meta Pixel)</b><span>Sends a cookie ID, IP address, browser details, page address and button clicks to Meta to measure our Facebook and Instagram ads.</span></span></label>
+    <div class="cookie-actions">
+      <button type="button" class="btn-solid" data-ck="save">Save my choice</button>
+      <button type="button" class="btn-solid" data-ck="necessary">Only necessary</button>
+    </div>
+  </div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
